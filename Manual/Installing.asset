@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b57bdc0aacea541906fa7128303eb8, type: 3}
+  m_Name: Installing
+  m_EditorClassIdentifier: 
+  pageName: Installing Manual Package
+  contents:
+  - contentType: 0
+    lines:
+    - 'In order to install the Manual package, you have multiple solutions at your
+      disposal : Open UPM Registry and Local Package configuration.
+
+
+      The easiest
+      way to install it is through the OpenUPM package registry, which will result
+      in the same functionaility and workflow as a regular package.
+
+
+      If you
+      want to use the package and do some modifications to it, you can clone the
+      project at github and reference it as a local package using the Package Manager
+      window.'
+  - contentType: 1
+    lines:
+    - OpenUPM Method
+  subPages: []
